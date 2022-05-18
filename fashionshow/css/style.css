@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body,
+div,
+header,
+img,
+a,
+video,
+source,
+section,
+h1,
+h2,
+ul,
+ol,
+li,
+strong,
+span,
+p{margin:0; padding:0;}
+
+body{overflow:hidden; position:relative; font-size:15px; letter-spacing:-0.08em; color:#1a1a1a;}
+a{text-decoration:none; color:#1a1a1a;}
+ul,ol{list-style:none;}
+div#wrap {width:100%; display:relative;}
+
+
+
+section.download{width:100%; padding-top:30px; background-color:#cdcacd;}
+div.download_title{position:relative; width:1005px; height:118px; margin:0 auto 52px;}
+
+
+div.download_title h2{float:left; font-size:280%; letter-spacing:-2px; word-spacing:-2px;}
+div.download_title strong{color:#c89615;}
+
+div.download_title a.button{position:absolute; bottom:12px; right:-35px; padding:10px 17px 10px 17px; border:1px solid #1a1a1a; border-radius:4px; transition: background-color 0.5s;}
+div.download_title a.button:hover{background-color:#1a1a1a; color:#fff;}
+
+div.list_box {width:1005px; height:708px; margin:0 auto; *zoom:1; display: flex; padding: 20px 0 0 0;}
+div.list_box:after{display:block; clear:both; content:'';}
+
+ul.list_download{float:left; width:100%; height:94%;}
+ul.list_download li{position:relative; float:left; transition: background-image 0.5s;}
+ul.list_download li a{display:block; width:100%; height:100%;}
+ul.list_download li.list01{width:130px; height:540px; background-image:url("../images/download_01.png"); background-repeat:no-repeat;}
+ul.list_download{width:300px; height:400px; background-repeat:no-repeat;}
+ul.list_download a:hover {opacity: 0.5;}
+ul.list_download2{float: left;width:300px; height:400px; background-repeat:no-repeat; padding: 0 50px 0 50px;}
+ul.list_download2 a:hover {opacity: 0.5;}
+ul.list_download3{float: right; width:300px; height:400px; background-repeat:no-repeat; padding: -50px 50px 0 50px;}
+ul.list_download3 a:hover {opacity: 0.5;}
+
+footer{position:absolute; bottom: 30px; width:100%; height:60px; line-height:60px; text-align: center; background-color:#be8b33; color:#fff;}
+
+.btn-top {display:none; position:fixed; right:0; bottom:60px; width:70px; height:70px; line-height:70px; text-align:center; letter-spacing:0; font-weight:bold; background-color:#000; color:#fff; z-index:999;}
